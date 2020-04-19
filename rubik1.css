@@ -1,0 +1,77 @@
+body {
+    background-image: url(image/background.png);
+}
+
+
+.rubiks_cube {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vw;
+    transform-origin: 50% 50%;
+    animation: jello .8s linear infinite both;;
+
+}
+
+@keyframes jello {
+  0% {
+    transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  30% {
+    transform: skew(25deg 25deg);
+            transform: skew(25deg 25deg);
+  }
+  40% {
+    transform: skew(-15deg, -15deg);
+            transform: skew(-15deg, -15deg);
+  }
+  50% {
+    transform: skew(15deg, 15deg);
+            transform: skew(15deg, 15deg);
+  }
+  65% {
+    transform: skew(-5deg, -5deg);
+            transform: skew(-5deg, -5deg);
+  }
+  75% {
+    transform: skew(5deg, 5deg);
+            transform: skew(5deg, 5deg);
+  }
+  100% {
+    transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+}
+
+
+.escapebtn {
+
+    border: none;
+    color: black;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Futura";
+    background-color: white;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+
+
+
+
+
+
